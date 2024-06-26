@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Stil tanımlamaları */
+ul.ul1 li {
+    display: inline-block;
+    margin-right: 20px; /* Boşluk miktarı ayarlanabilir */
+}
+
+ul.ul1 li a {
+    color: #fff; /* Metin rengi */
+    text-decoration: none; /* Bağlantı alt çizgisini kaldır */
+    padding: 10px; /* Bağlantı içi boşluk */
+}
+
+ul.ul1 li a:hover {
+    background-color: #800080; /* Hover durumunda arkaplan rengi */
+    border-radius: 5px; /* Köşe yuvarlama */
+}
+
+.alert.opak2 {
+    background-color: #800080; /* Başlık arka plan rengi */
+    color: #fff; /* Başlık metin rengi */
+    padding: 10px; /* Başlık içi boşluk */
+}
+
+.navbar {
+    background-color: #800080; /* Navbar arka plan rengi */
+    padding: 10px; /* Navbar içi boşluk */
+}
+
+.scrollspy-example {
+    padding: 20px; /* İçerik alanı içi boşluk */
+}
